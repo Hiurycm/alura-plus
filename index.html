@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Football Fan Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .principal {
+            background: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container__titulo {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .container__imagem {
+            max-width: 100%;
+            height: auto;
+        }
+        .container__botao {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .container__botao:hover {
+            background: #218838;
+        }
+        .secundario {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            background: #fff;
+            padding: 20px;
+        }
+        .secundario__imagem {
+            flex: 1;
+            max-width: 50%;
+            height: auto;
+        }
+        .container__descricao {
+            flex: 1;
+            padding: 20px;
+        }
+        .descricao__titulo {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .descricao__texto {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        .dispositivos {
+            background: #e9ecef;
+            padding: 20px;
+            text-align: center;
+        }
+        .dispositivos__titulo {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .dispositivos__lista {
+            list-style: none;
+            padding: 0;
+        }
+        .dispositivos__lista li {
+            display: inline-block;
+            margin: 0 15px;
+            text-align: center;
+        }
+        .rodape {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .rodape__lista {
+            list-style: none;
+            padding: 0;
+        }
+        .rodape__lista li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .rodape__texto {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="principal container">
+        <div class="container__caixa">
+            <h1 class="container__titulo">Assine e viva a paixão pelo futebol com o nosso pacote exclusivo!</h1>
+            <img src="img/FootballCombo.png" alt="Pacote de Assinatura de Futebol" class="container__imagem">
+            <a href="www.footballfanclub.com" class="container__botao">Assine por 12x de R$ 150,00*</a>
+            <a href="www.footballfanclub.com" class="container__botao botao_secundario">Assinar somente o Pacote de Jogos</a>
+            <p class="container__aviso">*O preço pode variar conforme a modalidade escolhida.</p>
+        </div>
+    </section>
+
+    <section class="container secundario">
+        <img src="img/WatchFootball.png" alt="Assistindo Futebol" class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Assista aos jogos do seu jeito</h2>
+            <p class="descricao__texto">Desfrute dos jogos ao vivo na TV, no tablet, laptop, celular e outros dispositivos. Acesse conteúdos exclusivos!</p>
+        </div>
+    </section>
+
+    <section class="container secundario">
+        <div class="container__descricao">
+            <p class="descricao__texto">
+                Apenas no nosso pacote, você tem acesso a jogos, entrevistas, e análises de todas as ligas de futebol, onde e quando quiser.
+            </p>
+            <a href="www.footballfanclub.com" class="container__botao secundario__botao">Assine o Pacote Completo</a>
+        </div>
+        <img src="img/FootballHighlights.png" alt="Destaques do Futebol" class="secundario__imagem">
+    </section>
+
+    <section class="container secundario">
+        <img src="img/FootballOnMobile.png" alt="Futebol no celular" class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Assista em qualquer lugar</h2>
+            <p class="descricao__texto">Baixe os jogos e assista quando e onde quiser, mesmo sem internet. Mantenha sua paixão sempre por perto.</p>
+        </div>
+    </section>
+    
+    <section class="dispositivos">
+        <h2 class="dispositivos__titulo">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="dispositivos__lista">
+            <li>
+                <img src="img/tv.png" alt="Ícone de televisão">
+                <h3 class="lista__item">TV</h3>
+            </li>
+            <li>
+                <img src="img/computador.png" alt="Ícone de computador">
+                <h3 class="lista__item">Computador</h3>
+            </li>
+            <li>
+                <img src="img/celular.png" alt="Ícone de celular">
+                <h3 class="lista__item">Celular</h3>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="rodape">
+        <img src="img/Logo.png" alt="Football Fan Club" class="rodape__logo">
+        <ul class="rodape__lista">
+            <li class="lista__link">
+                <a href="#">Idioma</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Dispositivos compatíveis</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Contrato de assinatura</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Política de privacidade</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Proteção de dados</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Anúncios personalizados</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Ajuda</a>
+            </li>
+        </ul>
+        <p class="rodape__texto">® 2021 Football Fan Club. Todos os direitos reservados. Serviço de assinatura paga.</p>
+        <p class="rodape__texto">Football Fan Club é um serviço baseado em assinatura e sujeito a termos e condições.</p>
+    </footer>
+</body>
+
+</html>
